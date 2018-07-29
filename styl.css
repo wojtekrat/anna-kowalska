@@ -16,7 +16,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 
 #topbar1 {
@@ -24,17 +23,13 @@ body {
 	max-width: 50%;
 	margin: auto;
 }
-
-
 #portrait {
 	max-width: 25%;
 	border-radius: 100%;
 	min-height: 12em;
 	min-width: 12em;
 	box-shadow: 0.2em 0.2em 0.2em grey;
-	
 }
-
 h1 {
 	margin-top: 0.5em;
 	opacity: 0.5;
@@ -55,13 +50,12 @@ h1 {
 }
 .c1 {
 	width: 70%;
-	margin: auto;
+	margin:auto;
 	overflow: hidden;
 	margin-bottom: 1%;
 	display: flex;
 	justify-content: center;
 }
-
 #footer {
 	width: 100%;
 	height: 10em;
@@ -70,17 +64,12 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 .c1 img	{	
 	width:100%;
 	height: 100%;
-	transition: all 0.3s ease-in-out;
 }
-.c1 img:hover {
-	opacity:0.7;
-	cursor: pointer;
-}
+
 .info {
 	margin: 2%;
 	min-width: 62%;
@@ -89,13 +78,39 @@ h1 {
 	font-size:1em;
 	text-align: justify;
 	padding-top: 0.8em;
-
+	overflow: hidden;
 }
-
 .pic {
 	min-width: 24%;
 	height: auto;
-	padding: 2%;	
+	padding: 2%;
+}
+.overlay {
+	position: relative;
+	width: auto;
+	height: 100%;
+}
+
+.overlay .pictitle1 {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e8e5e5;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	transition: opacity 0.5s ease-in-out;
+	font-size: 2em;
+	text-transform: uppercase;
+	overflow: auto;
+}
+
+.overlay:hover .pictitle1 {
+	opacity: 0.9;
+	cursor: pointer;
 }
 
 .nav {
@@ -132,13 +147,13 @@ h1 {
 }
 h3 {
 	padding-bottom: 0.8em;
+	text-transform: uppercase;
 }
 h3:hover {
 	text-decoration: underline;
 	color: #0ae1b0;
 	cursor: pointer;
 }
-
 #bg {
 	position: absolute;
 	left: 0;
