@@ -177,7 +177,7 @@ h3:hover {
 
 @media screen only and (max-width: 1000px)
 {
-	pic
+	.pic
 	{ display: none;
 	}
 }
