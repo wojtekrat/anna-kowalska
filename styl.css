@@ -24,7 +24,7 @@ body {
 	max-width: 50%;
 	margin: auto;
 }
-#topbar::before {
+#bg {
 	position: absolute;
 	left: 0;
 	top: 0;
